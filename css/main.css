@@ -1,0 +1,156 @@
+@font-face {
+    font-family: 'JetBrains Mono';
+    src: url('/font/JetBrainsMono-Regular.woff2') format('woff2'),
+         url('/font/JetBrainsMono-Regular.woff') format('woff'),
+         url('/font/JetBrainsMono-Regular.eot') format('eot');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    background-color: #015060;
+}
+
+#page-wrapper {
+    height: 100%;
+}
+
+aside {
+    font-family: 'Exo 2';
+    float: right;
+    width: 25%;
+    height: 100%;
+    color: #fff;
+}
+
+aside h1 {
+    font-size: 35px;
+    font-weight: 200;
+    
+    margin: 35px 0 0 18px;
+}
+
+aside h2 {
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 100;
+    margin: 0 0 0 18px;
+}
+
+aside h6 {
+    color: #fff;
+    font-size: 20px;
+    margin: 15px 0 0 45px;
+    padding-bottom: 5px;
+}
+
+.presentation-card {
+    margin-bottom: 50px;
+}
+
+.personal-picture {
+    display: block;
+    content: url(/img/me.png);
+    filter: grayscale(100%);
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 200px;
+    margin: 20px auto 0 auto;
+}
+
+.personal-picture:hover {
+    filter: none;
+}
+
+.personal-info-list {
+    margin: 0 auto auto 70px !important;
+    font-size: 14px;
+}
+
+.personal-info-list li {
+    margin-top: 5px;
+}
+
+.social-container {
+    margin: 20px auto auto 45px !important;
+    display: inline-flex;
+    column-gap: 20px;
+}
+
+.social-linkedin:hover {
+    color: #1da0f2;
+}
+
+.social-github:hover {
+    color: #000;
+}
+
+.social-stack-overflow:hover {
+    color: #e07f24;
+}
+
+.social-twitter:hover {
+    color: #1da0f2;
+}
+
+section {
+    float: left;
+    background-color: #2b2b2b;
+    width: 69%;
+    padding: 0 40px 80px 40px;
+    font-family: 'JetBrains Mono';
+    color: #b7b7b7;
+}
+
+section h6 {
+    color: #03829b;
+    font-size: 24px;
+    margin: 0 0 20px 0;
+    border-bottom: 3px solid #03829b;
+    padding-bottom: 5px;
+}
+
+section h7 {
+    font-size: 17px;
+    color: #03829b;
+    display: block;
+}
+
+section h7 .light-text {
+    color: #757575;
+}
+
+.right {
+    float: right;
+}
+
+section p {
+    font-size: 15px;
+}
+
+.subsection {
+    margin-top: 40px;
+}
+
+.subsection-item {
+    margin-top: 35px;
+}
+
+.styless-link {
+    color: inherit;
+}
+
+.styleless-link:visited {
+    color: inherit;
+}
+
+.undecorated {
+    text-decoration: none;
+}
+
