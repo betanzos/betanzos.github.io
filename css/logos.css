@@ -1,21 +1,10 @@
-/* TODO: Eliminar este estilo */
 .logo-grid-container {
-    display: inline-flex;
-    column-gap: 30px;
-    padding: 0;
-
-    /* TODO: QUITAR */
-    display: none;
-}
-
-/*
-    TODO: Aplicar este estilo a todos los DIVs contenedores de
-          aquellos que contengan la clase .logo-grid-container
-*/
-.logos-area {
-    text-align: center;
-    /* TODO: QUITAR */
-    display: none;
+    display: flex;
+    flex-flow: row wrap;
+    column-gap: 15px;
+    padding: 15px;
+    align-items: flex-end;
+    justify-content: space-around;
 }
 
 .logo {
@@ -26,105 +15,81 @@
     filter: none;
 }
 
-.grid-item-java-logo {
-
-}
+/* Logo Java */
 .grid-item-java-logo .logo {
     content:url('/img/java.svg');
-    max-height: 80px;
+    max-height: 50px;
 }
 
+/* Logo Spring */
 .grid-item-spring-logo {
     overflow: hidden;
     height: 50px;
-    width: 155px;
     align-self: flex-end;
 }
 .grid-item-spring-logo .logo {
     content: url('/img/spring.svg');
-    max-height: 130px;
-    margin: -40px 0 0 -20px;
+    max-height: 80px;
+    margin: -20px 0 0 -10px;
 }
 
-.grid-item-javafx-logo {
-    align-self: flex-end;
-}
+/* Logo JavaFX */
 .grid-item-javafx-logo .logo {
     content:url('/img/javafx.png');
-    max-height: 60px;
+    max-height: 35px;
 }
 
-.grid-item-cpp-logo {
-    align-self: flex-end;
-}
+/* Logo C++ */
 .grid-item-cpp-logo .logo {
     content:url('/img/cpp.svg');
-    max-height: 54px;
+    max-height: 30px;
 }
 
-.grid-item-cs-logo {
-    align-self: flex-end;
-    height: 58px;
-}
+/* Logo C# */
 .grid-item-cs-logo .logo {
     content:url('/img/c-sharp.svg');
-    max-height: 58px;
+    max-height: 33px;
     margin: -2px;
 }
 
-.grid-item-docker-logo {
-    align-self: flex-end;
-}
+/* Logo Docker */
 .grid-item-docker-logo .logo {
     content:url('/img/docker.svg');
-    max-height: 50px;
+    max-height: 25px;
 }
 
-.grid-item-hbn-logo {
-    align-self: flex-end;
-}
+/* Logo Hibernate */
 .grid-item-hbn-logo .logo {
     content:url('/img/hibernate.png');
-    max-height: 52px;
+    max-height: 32px;
 }
 
-.grid-item-jpa-logo {
-    align-self: flex-end;
-}
+/* Logo JPA */
 .grid-item-jpa-logo .logo {
     content:url('/img/jpa.png');
-    max-height: 52px;
+    max-height: 25px;
 }
 
-.grid-item-jasper-logo {
-    align-self: flex-end;
-}
+/* Logo JasperReports */
 .grid-item-jasper-logo .logo {
     content:url('/img/jasperreports.png');
-    max-height: 45px;
+    max-height: 25px;
 }
 
-.grid-item-aws-logo {
-    align-self: flex-end;
-}
+/* Logo AWS */
 .grid-item-aws-logo .logo {
     content:url('/img/aws.svg');
-    min-height: 48px;
-    min-width: 80px;
+    min-width: 50px;
 }
 
-.grid-item-jsf-logo {
-    align-self: flex-end;
-}
+/* Logo JSF */
 .grid-item-jsf-logo .logo {
     content:url('/img/jsf.png');
-    max-height: 40px;
+    max-height: 25px;
 }
 
-.grid-item-prime-logo {
-    align-self: flex-end;
-}
+/* Logo PrimeFaces */
 .grid-item-prime-logo .logo {
     content:url('/img/primefaces.png');
-    max-height: 50px;
+    max-height: 30px;
 }
