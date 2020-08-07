@@ -5,17 +5,61 @@
         <meta charset="UTF-8">
         <meta name="title" content="Eduardo Betanzos">
         <meta name="description" content="Eduardo Betanzo's personal site">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
         <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,500;1,200&display=swap" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="css/main.css"/>
         <link rel="stylesheet" type="text/css" href="css/logos.css"/>
+        <link rel="stylesheet" type="text/css" href="css/responsive.css"/>
 
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
-        <div id="page-wrapper">
-            <section>
-                <div id="about_me" class="subsection">
+        <div class="row">
+            <!-- PRESENTATION AND CONTACT INFO -->
+            <div class="side-content col-3 col-s-12">
+                <div class="presentation-card">
+                    <div class="row">
+                        <div class="col-12 col-sr-6">
+                            <h1>
+                                <a href="https://betanzos.github.io" class="styless-link undecorated">
+                                    Eduardo Betanzos
+                                </a>
+                            </h1>
+                            <h2>Software Engineer</h2>
+                            <a href="https://betanzos.github.io">
+                                <img class="personal-picture" alt="Eduardo Betanzos picture">
+                            </a>
+                        </div>
+                        <div class="col-12 col-sr-6">
+                            <h6>Personal Info</h6>
+                            <ul class="fa-ul personal-info-list">
+                                <li><i class="fa-li fa fa-flag"></i>Cuban</li>
+                                <li><i class="fa-li fa fa-envelope"></i><a class="styless-link" href="mailto:ebetanzos@hotmail.es">ebetanzos@hotmail.es</a></li>
+                                <li><i class="fa-li fa fa-home"></i>Puebla, Mexico</li>
+                            </ul>
+
+                            <div class="social-container row">
+                                <a class="col-f-3 styless-link undecorated social-linkedin" href="https://www.linkedin.com/in/ebetanzos" target="_blanck">
+                                    <i class="fa fa-linkedin-square fa-2x"></i>
+                                </a>
+                                <a class="col-f-3 styless-link undecorated social-github" href="https://github.com/betanzos" target="_blanck">
+                                    <i class="fa fa-github-square fa-2x"></i>
+                                </a>
+                                <a class="col-f-3 styless-link undecorated social-stack-overflow" href="https://stackexchange.com/users/12820004/e-betanzos" target="_blanck">
+                                    <i class="fa fa-stack-overflow fa-2x"></i>
+                                </a>
+                                <a class="col-f-3 styless-link undecorated social-twitter" href="https://twitter.com/ebetanzosm" target="_blanck">
+                                    <i class="fa fa-twitter-square fa-2x"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="main-content col-9">
+                <div id="about_me" class="subsection" style="margin-top: 15px;">
                     <h6>Profile</h6>
                     <p style="margin-top: 5px;">
                         Hello! I am Eduardo and I am a software engineer with 9 years of professional experience
@@ -303,49 +347,7 @@
                         </p>
                     </div>
                 </div>
-            </section>
-
-            <!-- PRESENTATION AND CONTACT INFO -->
-            <aside>
-                <div style="position: fixed; top: 0;">
-                    <div class="presentation-card">
-                        <h1>
-                            <a href="https://betanzos.github.io" class="styless-link undecorated">
-                                Eduardo Betanzos
-                            </a>
-                        </h1>
-                        <h2>Software Engineer</h2>
-                        <a href="https://betanzos.github.io">
-                            <img class="personal-picture" alt="Eduardo Betanzos picture">
-                        </a>
-                    </div>
-    
-                    <div>
-                        <h6>Personal Info</h6>
-                        <ul class="fa-ul personal-info-list">
-                            <li><i class="fa-li fa fa-flag"></i>Cuban</li>
-                            <li><i class="fa-li fa fa-envelope"></i><a class="styless-link" href="mailto:ebetanzos@hotmail.es">ebetanzos@hotmail.es</a></li>
-                            <li><i class="fa-li fa fa-home"></i>Puebla, Mexico</li>
-                        </ul>
-                        
-                        <div class="social-container">
-                            <a class="styless-link undecorated social-linkedin" href="https://www.linkedin.com/in/ebetanzos" target="_blanck">
-                                <i class="fa fa-linkedin-square fa-2x"></i>
-                            </a>
-                            <a class="styless-link undecorated social-github" href="https://github.com/betanzos" target="_blanck">
-                                <i class="fa fa-github-square fa-2x"></i>
-                            </a>
-                            <a class="styless-link undecorated social-stack-overflow" href="https://stackexchange.com/users/12820004/e-betanzos" target="_blanck">
-                                <i class="fa fa-stack-overflow fa-2x"></i>
-                            </a>
-                            <a class="styless-link undecorated social-twitter" href="https://twitter.com/ebetanzosm" target="_blanck">
-                                <i class="fa fa-twitter-square fa-2x"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                
-            </aside>
+            </div>
         </div>
     </body>
 </html>

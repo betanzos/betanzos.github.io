@@ -1,7 +1,21 @@
+/* TODO: Eliminar este estilo */
 .logo-grid-container {
     display: inline-flex;
     column-gap: 30px;
     padding: 0;
+
+    /* TODO: QUITAR */
+    display: none;
+}
+
+/*
+    TODO: Aplicar este estilo a todos los DIVs contenedores de
+          aquellos que contengan la clase .logo-grid-container
+*/
+.logos-area {
+    text-align: center;
+    /* TODO: QUITAR */
+    display: none;
 }
 
 .logo {
