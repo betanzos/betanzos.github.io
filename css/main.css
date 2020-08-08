@@ -58,6 +58,7 @@ body {
 
 .personal-picture:hover {
     filter: none;
+    transition: filter 300ms;
 }
 
 .personal-info-list {
