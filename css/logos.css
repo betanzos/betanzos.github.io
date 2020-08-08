@@ -22,15 +22,9 @@
 }
 
 /* Logo Spring */
-.grid-item-spring-logo {
-    overflow: hidden;
-    height: 50px;
-    align-self: flex-end;
-}
 .grid-item-spring-logo .logo {
     content: url('/img/spring.svg');
-    max-height: 80px;
-    margin: -20px 0 0 -10px;
+    max-height: 22px;
 }
 
 /* Logo JavaFX */
