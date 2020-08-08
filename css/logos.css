@@ -1,10 +1,10 @@
 .logo-grid-container {
     display: flex;
     flex-flow: row wrap;
-    column-gap: 15px;
-    padding: 15px;
+    gap: 5px;
+    padding: 0 5px 0 5px;
     align-items: flex-end;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .logo {
@@ -13,6 +13,7 @@
 
 .logo:hover {
     filter: none;
+    transition: filter 300ms
 }
 
 /* Logo Java */

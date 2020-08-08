@@ -65,6 +65,10 @@
     }
 
     /* styles for logos */
+    .logo-grid-container {
+        gap: 15px;
+        padding: 0 15px 0 15px;
+    }
     .grid-item-java-logo .logo {
         max-height: 80px;
     }
