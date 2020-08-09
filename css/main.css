@@ -139,6 +139,15 @@ body {
     margin-top: 35px;
 }
 
+.subsection > .subsection-item:first-of-type,
+#skills.subsection > .subsection-item {
+    margin-top: 0;
+}
+
+.subsection-item > p:first-of-type {
+    margin-top: 5px;
+}
+
 .styless-link {
     color: inherit;
 }
