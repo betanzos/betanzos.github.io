@@ -75,18 +75,22 @@ body {
 
 .social-linkedin:hover {
     color: #1da0f2;
+    transition: color 300ms;
 }
 
 .social-github:hover {
     color: #000;
+    transition: color 300ms;
 }
 
 .social-stack-overflow:hover {
     color: #e07f24;
+    transition: color 300ms;
 }
 
 .social-twitter:hover {
     color: #1da0f2;
+    transition: color 300ms;
 }
 
 .main-content {
