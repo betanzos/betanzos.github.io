@@ -105,6 +105,9 @@
     .grid-item-prime-logo .logo {
         max-height: 50px;
     }
+    .grid-item-gha-logo .logo {
+        max-height: 40px;
+    }
 }
 
 @media only screen and (min-width: 795px) {

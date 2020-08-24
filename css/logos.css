@@ -88,3 +88,9 @@
     content:url('/img/primefaces.png');
     max-height: 30px;
 }
+
+/* GitHub Actions PrimeFaces */
+.grid-item-gha-logo .logo {
+    content:url('/img/gh-actions.png');
+    max-height: 30px;
+}
