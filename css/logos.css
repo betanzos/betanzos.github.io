@@ -89,8 +89,14 @@
     max-height: 30px;
 }
 
-/* GitHub Actions PrimeFaces */
+/* Logo GitHub Actions */
 .grid-item-gha-logo .logo {
     content:url('/img/gh-actions.png');
     max-height: 30px;
+}
+
+/* Logo NodeJS */
+.grid-item-node-logo .logo {
+    content:url('/img/node.svg');
+    max-height: 35px;
 }
