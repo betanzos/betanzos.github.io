@@ -104,5 +104,5 @@
 /* Spark */
 .grid-item-spark-logo .logo {
     content:url('/img/spark.svg');
-    max-height: 60px;
+    max-height: 35px;
 }
