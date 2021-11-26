@@ -77,6 +77,12 @@ body {
     margin: 20px auto auto 0;
 }
 
+.my-nets-container::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
 .my-linkedin:hover {
     color: #1da0f2;
     transition: color 300ms;
@@ -94,7 +100,13 @@ body {
 
 .my-twitter:hover {
     color: #1da0f2;
-    transition: color 300ms;
+    transition: color 300ms;;
+}
+
+.my-blog {
+    margin-top: 1.2rem;
+    margin-left: 0.7rem;
+    font-size: 1.1rem;
 }
 
 .main-content {

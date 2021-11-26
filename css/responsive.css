@@ -60,7 +60,7 @@
     }
 
     .side-content h6 {
-        margin: 150px 0 15px 0;
+        margin: 100px 0 15px 0;
         padding-bottom: 5px;
     }
 
@@ -143,6 +143,10 @@
     .side-content h6 {
         font-size: 20px;
         margin: 15px 0 15px 0;
+    }
+
+    .my-blog {
+        font-size: 1.2rem;
     }
 
     .main-content h6 {
