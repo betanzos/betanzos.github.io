@@ -27,4 +27,5 @@
     buildLogos("grid-item-gha-logo", "https://github.com/features/actions", "GitHub Actions logo");
     buildLogos("grid-item-node-logo", "https://nodejs.org/", "NodeJS logo");
     buildLogos("grid-item-spark-logo", "http://sparkjava.com/", "Spark logo");
+    buildLogos("grid-item-go-logo", "https://go.dev", "Golang logo");
 })();

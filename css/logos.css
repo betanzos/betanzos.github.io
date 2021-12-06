@@ -106,3 +106,9 @@
     content:url('/img/spark.svg');
     max-height: 35px;
 }
+
+/* Go lang */
+.grid-item-go-logo .logo {
+    content:url('/img/golang.svg');
+    min-width: 50px;
+}
