@@ -50,7 +50,7 @@ body {
 
 .personal-picture {
     display: block;
-    content: url(/img/me.png);
+    content: url(/img/me.jpg);
     filter: grayscale(100%);
     border: 1px solid #ddd;
     border-radius: 4px;
