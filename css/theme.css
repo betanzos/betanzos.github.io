@@ -118,26 +118,6 @@ img {
   font-weight: 600;
 }
 
-.prompt-user {
-  color: var(--accent-pink);
-}
-
-.prompt-host {
-  color: var(--accent-cyan);
-}
-
-.prompt-path {
-  color: var(--accent-primary);
-}
-
-.prompt-separator {
-  color: var(--text-secondary);
-}
-
-.prompt-dollar {
-  color: var(--accent-warning);
-}
-
 .cursor {
   display: inline-block;
   width: 10px;
