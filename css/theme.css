@@ -68,8 +68,9 @@ a {
   transition: color var(--transition-fast);
 }
 
-ul, ol {
-  list-style: none;
+ul {
+  display: block;
+  padding-left: 20px;
 }
 
 img {
